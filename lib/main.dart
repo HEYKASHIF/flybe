@@ -15,9 +15,6 @@ class MyApp extends StatelessWidget {
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
         ),
-        body: Center(
-            child: Image.network(
-                "https://designwizard.com/blog/inspirational-quotes-for-students/Satya-Nani_1650460410531.jpg")),
       ),
     );
   }
