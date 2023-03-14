@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
         ),
+        body: Center(
+          child: Image.asset("assets/images/pic2.jpg"),
+        ),
       ),
     );
   }
