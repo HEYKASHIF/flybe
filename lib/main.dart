@@ -4,6 +4,10 @@ void main() {
   runApp(MyApp());
 }
 
+void onPressButtonFunction() {
+  print("button pressed by the user");
+}
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
           child: Image.asset("assets/images/pic1.jpg"),
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: null,
+          onPressed: onPressButtonFunction,
           child: const Icon(Icons.refresh),
         ),
       ),
