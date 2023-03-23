@@ -11,6 +11,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.black,
           title: const Text("in_syngo"),
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
