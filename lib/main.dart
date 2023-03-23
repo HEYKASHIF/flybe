@@ -8,6 +8,10 @@ void onPressButtonFunction() {
   print("button pressed by the user");
 }
 
+void ElevatedButtonFunction() {
+  print("Elevated Button Pressed");
+}
+
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,17 +20,26 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Colors.black87,
-          title: const Text("in_syngo"),
+          backgroundColor: Colors.blueAccent,
+          title: const Text(
+            "in_syngo",
+          ),
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
         ),
         body: Center(
-          child: Image.asset("assets/images/pic1.jpg"),
+          child: ElevatedButton(
+            onPressed: ElevatedButtonFunction,
+            child: Text(
+              "Click ME GUYS",
+            ),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: onPressButtonFunction,
-          child: const Icon(Icons.refresh),
+          child: const Icon(
+            Icons.refresh,
+          ),
         ),
       ),
     );
