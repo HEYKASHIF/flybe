@@ -28,8 +28,8 @@ class MyApp extends StatelessWidget {
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
         ),
-        body: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             Container(
               margin: EdgeInsets.all(11),
