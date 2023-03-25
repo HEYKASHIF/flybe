@@ -19,6 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
+          elevation: 0,
           centerTitle: true,
           backgroundColor: Color.fromARGB(255, 150, 27, 203),
           title: const Text(
