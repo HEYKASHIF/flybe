@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           actions: const [Icon(Icons.notification_important)],
         ),
         body: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Container(
               margin: EdgeInsets.all(11),
