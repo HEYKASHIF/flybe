@@ -29,8 +29,8 @@ class MyApp extends StatelessWidget {
           actions: const [Icon(Icons.notification_important)],
         ),
         body: Container(
-          color: Color.fromARGB(255, 170, 87, 205),
-          padding: EdgeInsets.all(150),
+          color: Color.fromARGB(255, 238, 238, 70),
+          padding: EdgeInsets.symmetric(vertical: 50, horizontal: 100),
           child: Text("hyy guys this is my learning app!"),
         ),
         floatingActionButton: FloatingActionButton(
