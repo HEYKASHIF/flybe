@@ -20,27 +20,35 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: Color.fromARGB(255, 150, 27, 203),
           title: const Text(
             "in_syngo",
           ),
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
         ),
-        body: Center(
-          child: ElevatedButton(
-            onPressed: ElevatedButtonFunction,
-            child: Text(
-              "Click ME GUYS",
-            ),
-          ),
+        body: Container(
+          color: Color.fromARGB(255, 146, 27, 198),
         ),
         floatingActionButton: FloatingActionButton(
+          backgroundColor: Color.fromARGB(255, 144, 40, 204),
           onPressed: onPressButtonFunction,
           child: const Icon(
             Icons.refresh,
           ),
         ),
+        // TextButton(
+        //           style: TextButton.styleFrom(
+        //             foregroundColor: Colors.white,
+
+        //             padding: const EdgeInsets.all(16.0),
+
+        //             textStyle: const TextStyle(fontSize: 20),
+
+        //           ),
+        //           onPressed: () {},
+        //           child: const Text('Gradient'),
+        // ),
       ),
     );
   }
