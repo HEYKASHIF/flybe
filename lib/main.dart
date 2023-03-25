@@ -28,11 +28,11 @@ class MyApp extends StatelessWidget {
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
         ),
-        body: Container(
-          color: Color.fromARGB(255, 196, 29, 17),
-          padding: EdgeInsets.symmetric(vertical: 50, horizontal: 100),
-          margin: EdgeInsets.all(50),
-          child: Text("hyy guys this is my learning app!"),
+        body: Padding(
+          padding: EdgeInsets.all(50),
+          child: Text(
+            "Hyy Flutter This Is Kashif!",
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Color.fromARGB(255, 144, 40, 204),
