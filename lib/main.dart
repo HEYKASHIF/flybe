@@ -28,18 +28,19 @@ class MyApp extends StatelessWidget {
           leading: const Icon(Icons.menu),
           actions: const [Icon(Icons.notification_important)],
         ),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+        body: Center(
+            child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
               margin: EdgeInsets.all(11),
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.all(25),
               color: Colors.amber,
               child: Text("Kashif"),
             ),
             Container(
               margin: EdgeInsets.all(11),
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.all(25),
               color: Color.fromARGB(255, 36, 255, 7),
               child: Text("Kashif"),
             ),
@@ -56,7 +57,7 @@ class MyApp extends StatelessWidget {
               child: Text("Kashif"),
             )
           ],
-        ),
+        )),
         floatingActionButton: FloatingActionButton(
           backgroundColor: Color.fromARGB(255, 144, 40, 204),
           onPressed: onPressButtonFunction,
