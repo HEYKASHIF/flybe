@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
         body: Center(
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             Container(
               margin: EdgeInsets.all(11),
@@ -46,13 +47,13 @@ class MyApp extends StatelessWidget {
             ),
             Container(
               margin: EdgeInsets.all(11),
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.all(25),
               color: Color.fromARGB(255, 255, 7, 7),
               child: Text("Kashif"),
             ),
             Container(
               margin: EdgeInsets.all(11),
-              padding: EdgeInsets.all(15),
+              padding: EdgeInsets.all(25),
               color: Color.fromARGB(255, 7, 234, 255),
               child: Text("Kashif"),
             )
